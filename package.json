@@ -3,7 +3,7 @@
     "displayName": "Indigo Coal",
     "description": "Dark color theme with pastel colors that's easy on the eyes 😉",
     "publisher": "Anthony Weathersby",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "engines": {
         "vscode": "^1.45.0"
     },
