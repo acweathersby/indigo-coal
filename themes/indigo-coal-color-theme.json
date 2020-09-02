@@ -164,7 +164,7 @@
         "class": "#5d97b4",
         "function.declaration": "#e6662f",
         "keyword": "#586583",
-        "parameter.declaration": "#caac9a",
+        "parameter.declaration": "#e7ae7fe5",
     },
     "tokenColors": [
         /*
@@ -189,7 +189,7 @@
                 "storage.modifier"
             ],
             "settings": {
-                "foreground": "#586583",
+                "foreground": "#6275a1",
                 "fontStyle": "bold"
             }
         },
@@ -250,7 +250,7 @@
                 "entity.name.tag.css",
             ],
             "settings": {
-                "foreground": "#acacac",
+                "foreground": "#bebebe",
                 "fontStyle": "bold"
             }
         },
@@ -267,7 +267,7 @@
                 "meta.member.access",
             ],
             "settings": {
-                "foreground": "#ccb5a4ce",
+                "foreground": "#cac2bdce",
                 "fontStyle": "bold"
             }
         },
@@ -278,25 +278,8 @@
                 "markup.quote.markdown",
             ],
             "settings": {
-                "foreground": "#8D8D8D",
+                "foreground": "#a799af",
                 "fontStyle": "italic"
-            }
-        },
-        {
-            "name": "Block Declarations",
-            "scope": [
-                "meta.definition.function",
-                "entity.name.function.constructor",
-                "keyword.other.operator.overload",
-                "meta.head.function.definition.special.operator-overload",
-                "entity.name.function.definition",
-                "entity.name.type.class",
-                "meta.definition.method",
-                "meta.object-literal.key",
-            ],
-            "settings": {
-                "foreground": "#e6662f",
-                "fontStyle": "bold"
             }
         },
         {
@@ -314,8 +297,25 @@
                 "meta.object.member"
             ],
             "settings": {
-                "foreground": "#d6856ee5",
+                "foreground": "#ffdabce5",
                 "fontStyle": "bold italic"
+            }
+        },
+        {
+            "name": "Block Declarations",
+            "scope": [
+                "meta.definition.function",
+                "entity.name.function.constructor",
+                "keyword.other.operator.overload",
+                "meta.head.function.definition.special.operator-overload",
+                "entity.name.function.definition",
+                "entity.name.type.class",
+                "meta.definition.method",
+                "meta.object-literal.key",
+            ],
+            "settings": {
+                "foreground": "#fc7f4a",
+                "fontStyle": "bold"
             }
         },
         {
@@ -335,7 +335,7 @@
                 "storage.type.interface"
             ],
             "settings": {
-                "foreground": "#736da5",
+                "foreground": "#887fda",
                 "fontStyle": "italic"
             }
         },
@@ -345,7 +345,7 @@
                 "meta.tag",
             ],
             "settings": {
-                "foreground": "#7f77ccd7",
+                "foreground": "#8675c2d7",
                 "fontStyle": "italic"
             }
         },
@@ -436,7 +436,7 @@
                 "meta.objectliteral",
             ],
             "settings": {
-                "foreground": "#d6856ee5",
+                "foreground": "#ffdabce5",
                 "fontStyle": "bold"
             }
         },

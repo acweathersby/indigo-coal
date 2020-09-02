@@ -1,5 +1,8 @@
 # Change Log
 
+## [1.1.1]
+- Increased Contrast
+
 ## [1.1.0]
 - Adjusted VSCode interface colors. 
 - Add symantec highlighting & tweaked colors slightly

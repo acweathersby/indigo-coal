@@ -5,13 +5,10 @@ A dark theme that's easy on the eyes and highlights the most important bits.
 Program structures like `let` and `function` are pushed to the background and variables, types, declarations are all pulled forward for your eyes to feast on. 
 (Just don't consume too much at one time)
 
----
-
 
 ![image](./media/preview.png)
 
 
----
 
 ### Features:
 
