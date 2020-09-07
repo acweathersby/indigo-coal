@@ -6,7 +6,7 @@
 <div align=center>
 
 [![The MIT License](https://img.shields.io/badge/license-MIT-orange.svg?style=for-the-badge)](http://opensource.org/licenses/MIT)
-[![GitHub](https://img.shields.io/github/release/acweathersby/indigo-coal.svg?style=for-the-badge)](https://github.com/acweathersby/indigo-coal/releases)
+[![GitHub](https://img.shields.io/github/v/release/acweathersby/indigo-coal.svg?style=for-the-badge)](https://github.com/acweathersby/indigo-coal/releases)
 
 </div>
 
