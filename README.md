@@ -1,7 +1,7 @@
 
 
 <div align=center><img src="https://raw.githubusercontent.com/acweathersby/indigo-coal/master/media/indigo-coal.logo_w_text.png" alt="indigo-coal logo" width=400 align=center/></div>
-<h3 align=center> Color Theme </h3>
+<h3 align=center>A Dark Color Theme</h3>
 
 <div align=center>
 
