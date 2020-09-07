@@ -2,7 +2,7 @@
 
 ## [1.1.5]
 - Correct application window contrast on Windows
-- Increaes brightness of markup list text
+- Increase brightness of markdown list 
 
 ## [1.1.4]
 - Update Extension Information
