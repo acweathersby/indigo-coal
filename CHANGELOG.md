@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.1.5]
+- Correct application window contrast on Windows
+- Increaes brightness of markup list text
+
+## [1.1.4]
+- Update Extension Information
 
 ## [1.1.3]
 - Update Readme

@@ -51,8 +51,10 @@
         /* sidebar ------ */
         /**/ "sideBar.foreground": "#a3a3a3",
         /**/ "sideBarSectionHeader.foreground": "#c4c4c4",
+        /* title bar-------- */
+        /**/ "titleBar.activeForeground": "#c4c4c4",
         /* tabs-------- */
-        /**/ "tab.activeForeground": "#c0c0c0",
+        /**/ "tab.activeForeground": "#c4c4c4",
         //////////////////////////////////////////////////////
         //
         // Foreground  - Mid-tones ///////////////////////////
@@ -70,8 +72,7 @@
         /* menu-------- */
         /**/ "menubar.selectionBackground": "#352d4e",
         /**/ "menubar.selectionBorder": "#352d4e",
-        /**/ "menu.border": "#352d4e",
-        /**/ "menubar.selectionForeground": "#352d4e",
+        //**/ "menu.border": "#352d4e",
         /* menu-------- */
         /**/ "minimap.errorHighlight": "#b83535",
         /* status bar-------- */
@@ -80,8 +81,6 @@
         /* scroll bar-------- */
         /**/ "scrollbarSlider.activeBackground": "#6c2df634",
         /**/ "scrollbarSlider.hoverBackground": "#815dce34",
-        /* title bar-------- */
-        /**/ "titleBar.activeForeground": "#352d4e",
         /* z_other-------- */
         /**/ "focusBorder": "#8c889746",
         /**/ "problemsErrorIcon.foreground": "#b83535",
@@ -132,7 +131,7 @@
         /**/ "settings.dropdownBorder": "#32294d",
         /**/ "list.errorForeground": "#e45c6e",
         /* menu-------- */
-        /**/ "menu.background": "#161222",
+        /**/ "menu.background": "#1d1a27",
         /**/ "dropdown.background": "#161222",
         /* peek-------- */
         /**/ "peekViewEditor.background": "#161222",
@@ -159,6 +158,8 @@
         /**/ "tab.activeBackground": "#16141e",
         /**/ "tab.inactiveBackground": "#1e1c29",
         /**/ "tab.border": "#1e1c29",
+        /* title bar ------ */
+        /**/ "titleBar.activeBackground": "#161222",
         //////////////////////////////////////////////////////
         //
         // Background Inactive - Darker Darks ////////////////
@@ -237,7 +238,7 @@
                 "punctuation.separator.scope-resolution",
                 "variable.language.special.self.python",
                 "variable.language.this",
-                "variable.language.super"
+                "variable.language.super",
             ],
             "settings": {
                 "foreground": "#8398c5",
@@ -254,7 +255,6 @@
                 "variable.parameter",
                 "variable.parameter.cpp",
                 "variable.other.object.access",
-                // "meta",
                 "new.expr",
                 "entity.name.tag.css",
             ],
@@ -275,6 +275,7 @@
                 "entity.other.attribute-name.id.css",
                 "meta.attribute.python",
                 "meta.member.access",
+                "markup.list",
             ],
             "settings": {
                 "foreground": "#dfd4cdce",
