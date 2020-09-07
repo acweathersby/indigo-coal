@@ -9,6 +9,7 @@
 [![GitHub](https://img.shields.io/github/release/acweathersby/indigo-coal.svg?style=for-the-badge)](https://github.com/acweathersby/indigo-coal/releases)
 
 </div>
+
 ----
 
 <br/>
