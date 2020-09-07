@@ -1,5 +1,9 @@
 # Change Log
 
+
+## [1.1.3]
+- Update Readme
+
 ## [1.1.2]
 - Tweaked identifier/reference colors. 
 - Adjusted colors for sidebar and statusbar

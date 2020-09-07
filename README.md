@@ -24,14 +24,6 @@ pulled forward to make it easier to focus on core information.
 ### Features
 
 - Lower intensity colors for your viewing pleasure.
-<!--
-- Color specific to language constructs:
-    - <span style="color:#7F77CC"><b>Purple</b></span>: Types and Literals
-    - <span style="color:#d67558"><b>Light Orange</b></span>: Declarations and object literals
-    - <span style="color:#e6662f"><b>Dark Orange</b></span>: Function Names
-    - <span style="color:#6ea363"><b>Green</b></span>: Strings
-    - <span style="color:#888888"><b>Light Grays</b></span>: Variables, Members, and Calls
--->
 
 - Labeled theme file for easy modification
 
