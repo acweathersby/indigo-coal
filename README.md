@@ -1,6 +1,6 @@
 
 
-<div align=center><img src=./media/indigo-coal.logo_w_text.png alt="indigo-coal logo" width=400 align=center/></div>
+<div align=center><img src="https://raw.githubusercontent.com/acweathersby/indigo-coal/master/media/indigo-coal.logo_w_text.png" alt="indigo-coal logo" width=400 align=center/></div>
 <h3 align=center> Color Theme </h3>
 
 <div align=center>
@@ -19,7 +19,7 @@ A dark theme that's easy on the eyes and highlights the most important bits.
 Common language symbols structures - such as `let`, `class` and `function` - are pushed to the background and references, types, literals, and declarations are 
 pulled forward to make it easier to focus on core information. 
 
-![image](./media/preview.png)
+![image](https://raw.githubusercontent.com/acweathersby/indigo-coal/master/media/preview.png)
 
 ### Features
 

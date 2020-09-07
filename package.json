@@ -13,7 +13,7 @@
     "categories": [
         "Themes"
     ],
-    "icon": "./media/indigo-coal.logo.png",
+    "icon": "media/indigo-coal.logo.png",
     "contributes": {
         "themes": [
             {

@@ -3,4 +3,5 @@
 .gitignore
 build/**
 media/**
+!media/indigo-coal.logo.png
 vsc-extension-quickstart.md
