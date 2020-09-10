@@ -36,6 +36,10 @@ pulled forward to make it easier to focus on core information.
     - CSS
     - C++
     - JSON
+    
+### Have Any Problems?
+
+Please open an issue at [issues](https://github.com/acweathersby/indigo-coal/issues). I'll do my best to address it as quickly as possible.
 
 #### Repository
 
