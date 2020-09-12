@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.1.6]
+- Increase contrast of scrollbar slider
+- Decreased color intensity of the snippet-tabstop-highlight-background
+
 ## [1.1.5]
 - Correct application window contrast on Windows
 - Increase brightness of markdown list 

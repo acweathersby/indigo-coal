@@ -79,8 +79,8 @@
         /**/ "statusBar.debuggingForeground": "#352d4e",
         /**/ "statusBar.border": "#6b6b6b31",
         /* scroll bar-------- */
-        /**/ "scrollbarSlider.activeBackground": "#6c2df634",
-        /**/ "scrollbarSlider.hoverBackground": "#815dce34",
+        /**/ "scrollbarSlider.activeBackground": "#9061f591",
+        /**/ "scrollbarSlider.hoverBackground": "#9061f56b",
         /* z_other-------- */
         /**/ "focusBorder": "#8c889746",
         /**/ "problemsErrorIcon.foreground": "#b83535",
@@ -110,7 +110,7 @@
         /**/ "extensionButton.prominentBackground": "#3f3b66",
         /* editor-------- */
         /**/ "editor.background": "#16141e",
-        /**/ "editor.snippetTabstopHighlightBackground": "#a54949",
+        /**/ "editor.snippetTabstopHighlightBackground": "#cc3c3c7e",
         /**/ "editor.selectionBackground": "#a18fbe2f",
         /**/ "editorGroupHeader.tabsBackground": "#1e1c29",
         /**/ "editorIndentGuide.background": "#332b50",
@@ -138,7 +138,7 @@
         /**/ "peekViewResult.background": "#161222",
         /**/ "peekViewTitle.background": "#161222",
         /* scroll bar-------- */
-        /**/ "scrollbarSlider.background": "#554f6134",
+        /**/ "scrollbarSlider.background": "#9061f548",
         /* side bar-------- */
         /**/ "sideBar.border": "#1e1c29",
         /**/ "sideBar.background": "#1b1a25",
