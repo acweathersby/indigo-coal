@@ -76,7 +76,7 @@
         /* menu-------- */
         /**/ "minimap.errorHighlight": "#b83535",
         /* status bar-------- */
-        /**/ "statusBar.debuggingForeground": "#352d4e",
+        /**/ "statusBar.debuggingForeground": "#ffffff",
         /**/ "statusBar.border": "#6b6b6b31",
         /* scroll bar-------- */
         /**/ "scrollbarSlider.activeBackground": "#9061f591",
@@ -152,7 +152,7 @@
         /* status bar-------- */
         /**/ "statusBar.background": "#1e1c29",
         /**/ "statusBarItem.hoverBackground": "#452b8d93",
-        /**/ "statusBar.debuggingBackground": "#7048dd93",
+        /**/ "statusBar.debuggingBackground": "#5536aaca",
         /**/ "statusBar.noFolderBackground": "#ff2c2c93",
         /* tab bar-------- */
         /**/ "tab.activeBackground": "#16141e",

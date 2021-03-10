@@ -1,5 +1,8 @@
 # Change Log
 
+## [1.1.7]
+- Improve contrast of status bar text when in debug mode
+
 ## [1.1.6]
 - Increase contrast of scrollbar slider
 - Decreased color intensity of the snippet-tabstop-highlight-background

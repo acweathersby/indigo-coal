@@ -39,7 +39,7 @@ pulled forward to make it easier to focus on core information.
     
 ### Have Any Problems?
 
-Please open an issue at [issues](https://github.com/acweathersby/indigo-coal/issues). I'll do my best to address it as quickly as possible.
+Please open an issue at [issues](https://github.com/acweathersby/indigo-coal/issues).
 
 #### Repository
 
