@@ -1,5 +1,8 @@
 # Change Log
 
+## [1.2.0]
+- Improve Syntax highlighting for Rust & C++
+
 ## [1.1.7]
 - Improve contrast of status bar text when in debug mode
 

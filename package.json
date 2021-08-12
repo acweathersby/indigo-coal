@@ -3,7 +3,7 @@
     "displayName": "IndigoCoal Dark Theme",
     "description": "A dark pastel color theme for long coding sessions",
     "publisher": "candle-smith",
-    "version": "1.1.7",
+    "version": "1.2.0",
     "engines": {
         "vscode": "^1.22.0"
     },

@@ -185,16 +185,15 @@
         {
             "name": "Base Keywords",
             "scope": [
+                "constant.language.json",
                 "keyword",
                 "meta.function",
-                "constant.language",
-                "keyword.control.directive",
-                "entity.name.namespace",
-                "storage.type",
                 "meta.tag.metadata.doctype.html",
-                "constant.language.json",
-                "storage.modifier.specifier",
-                "storage.modifier"
+                "punctuation.brackets.curly.rust",
+                "punctuation.definition.block",
+                "punctuation.definition.parameters",
+                "punctuation.section.block",
+                "storage"
             ],
             "settings": {
                 "foreground": "#626e8a",
@@ -223,7 +222,7 @@
                 "fontStyle": "bold"
             }
         },
-        /*
+    /*
         ██    ██  █████  ██████  ██  █████  ██████  ██      ███████ ███████ 
         ██    ██ ██   ██ ██   ██ ██ ██   ██ ██   ██ ██      ██      ██      
         ██    ██ ███████ ██████  ██ ███████ ██████  ██      █████   ███████ 
@@ -233,12 +232,13 @@
         {
             "name": "Global Variables",
             "scope": [
-                "support.constant.math",
+                "entity.name.namespace",
                 "entity.name.scope-resolution",
                 "punctuation.separator.scope-resolution",
+                "support.constant.math",
                 "variable.language.special.self.python",
-                "variable.language.this",
                 "variable.language.super",
+                "variable.language.this",
             ],
             "settings": {
                 "foreground": "#8398c5",
@@ -248,15 +248,12 @@
         {
             "name": "Variables",
             "scope": [
-                "meta.function-call.arguments",
-                "variable.other",
-                "variable.other.object",
-                "variable.other.jsdoc",
-                "variable.parameter",
-                "variable.parameter.cpp",
-                "variable.other.object.access",
-                "new.expr",
                 "entity.name.tag.css",
+                "meta.body",
+                "meta.function-call.arguments",
+                "new.expr",
+                "variable.other",
+                "variable.parameter",
             ],
             "settings": {
                 "foreground": "#bebebe",
@@ -266,16 +263,17 @@
         {
             "name": "Keys & Members",
             "scope": [
-                "variable.other.property",
-                "variable.other.property.cpp",
-                "meta.object.member",
-                "variable.other.object.property",
-                "variable.other.constant.property",
-                "support.variable.property",
+                "entity.name.function.member",
                 "entity.other.attribute-name.id.css",
-                "meta.attribute.python",
-                "meta.member.access",
                 "markup.list",
+                "meta.attribute.python",
+                "meta.attribute.rust",
+                "meta.member.access",
+                "meta.object.member",
+                "support.variable.property",
+                "variable.other.constant.property",
+                "variable.other.object.property",
+                "variable.other.property",
             ],
             "settings": {
                 "foreground": "#dfd4cdce",
@@ -285,7 +283,9 @@
         {
             "name": "Calls",
             "scope": [
+                "entity.name.function.call",
                 "meta.function-call",
+                "meta.function.call",
                 "markup.quote.markdown",
             ],
             "settings": {
@@ -296,16 +296,16 @@
         {
             "name": "Declarations",
             "scope": [
-                "meta.definition.variable",
                 "entity.name.label",
-                "meta.object-literal.key",
                 "entity.other.attribute-name.html",
                 "entity.other.attribute-name",
-                "meta.attribute.html",
-                "support.type.property-name.css",
                 "literal.key",
+                "meta.attribute.html",
+                "meta.definition.property",
+                "meta.definition.variable",
+                "meta.object-literal.key",
                 "meta.object.member",
-                "meta.definition.property"
+                "support.type.property-name.css",
             ],
             "settings": {
                 "foreground": "#c9ba9fe5",
@@ -315,13 +315,15 @@
         {
             "name": "Block Declarations",
             "scope": [
-                "meta.definition.function",
                 "entity.name.function.constructor",
-                "keyword.other.operator.overload",
-                "meta.head.function.definition.special.operator-overload",
                 "entity.name.function.definition",
+                "entity.name.module",
                 "entity.name.type.class",
+                "keyword.other.operator.overload",
+                "meta.function.definition.rust",
+                "meta.definition.function",
                 "meta.definition.method",
+                "meta.head.function.definition.special.operator-overload",
                 "support.type.property-name.json",
             ],
             "settings": {
@@ -330,21 +332,23 @@
             }
         },
         {
-            "name": "Types",
+            "name": "Types & Storage",
             "scope": [
-                "meta.type.tuple",
-                "entity.name.type",
-                "meta.arguments.decltype",
-                "entity.name.type.cpp",
-                "meta.type",
-                "meta.type.annotation",
-                "meta.return.type",
                 "cast.expr",
+                "entity.name.type",
+                "entity.other.inherited-class",
                 "fenced_code.block.language.markdown",
                 "markup.heading.markdown",
-                "entity.other.inherited-class",
-                "entity.name.type.interface",
-                "storage.type.interface"
+                "meta.arguments.decltype",
+                "meta.return.type",
+                "meta.template.definition",
+                "meta.type",
+                "keyword.operator.dereference",
+                "keyword.operator.borrow",
+                "storage.type.built-in.primitive",
+                "storage.type.primitive",
+                "storage.type.template.argument",
+                "storage.modifier"
             ],
             "settings": {
                 "foreground": "#887fda",
@@ -433,9 +437,7 @@
         {
             "name": "Numeric Literal",
             "scope": [
-                "constant.language.boolean",
-                "constant.language.null",
-                "constant.language.undefined",
+                "constant.language",
                 "constant.numeric",
                 "keyword.other.unit",
                 "meta.structure.dictionary.value.json"
@@ -448,8 +450,8 @@
         {
             "name": "Object & Array Literals",
             "scope": [
+                "meta.array.literal",
                 "meta.objectliteral",
-                "meta.array.literal"
             ],
             "settings": {
                 "foreground": "#c9ba9fe5",
@@ -484,11 +486,10 @@
         {
             "name": "Operator",
             "scope": [
-                "storage.type.function.arrow",
-                "operator",
-                "keyword.operator",
                 "constant.language.import-export-all.js",
-                "storage.modifier.reference.cpp"
+                "keyword.operator",
+                "operator",
+                "storage.type.function.arrow",
             ],
             "settings": {
                 "foreground": "#5d97b4",
@@ -505,24 +506,14 @@
         {
             "name": "Punctuation",
             "scope": [
-                "meta.object-binding-pattern-variable.ts",
+                "entity.name.function.macro",
+                "keyword.control.directive",
                 "markup",
-                "punctuation.separator.delimiter",
-                "punctuation.separator.initializers",
-                "punctuation.definition.list",
-                "punctuation.definition.quote",
-                "punctuation.definition.bold",
-                "punctuation.definition.block.cpp",
-                "punctuation.accessor",
-                "punctuation.separator.pointer-access",
-                "punctuation.separator.comma",
-                "punctuation.separator.label",
-                "meta.method.declaration",
-                "punctuation.terminator",
-                "punctuation.definition.case",
-                "punctuation.definition.parameters",
+                "meta.arrow",
                 "meta.class",
-                "meta.arrow"
+                "meta.method.declaration",
+                "meta.object-binding-pattern-variable.ts",
+                "punctuation",
             ],
             "settings": {
                 "foreground": "#78737e",
@@ -550,8 +541,7 @@
         {
             "name": "HTML Brackets",
             "scope": [
-                "punctuation.definition.tag.begin",
-                "punctuation.definition.tag.end",
+                "punctuation.definition.tag",
                 "punctuation.section.property-list"
             ],
             "settings": {
@@ -562,38 +552,21 @@
         {
             "name": "String Template Brackets",
             "scope": [
-                "punctuation.definition.template-expression.begin",
-                "punctuation.definition.template-expression.end"
+                "punctuation.definition.template-expression",
             ],
             "settings": {
                 "foreground": "#5b7a61",
                 "fontStyle": "bold"
             }
-        },
+    },
         {
             "name": "Brackets",
             "scope": [
+                "meta.brace.css",
                 "punctuation.section.arguments.begin.bracket",
                 "punctuation.section.arguments.end.bracket",
-                "punctuation.section.parameters.begin.bracket.round",
-                "punctuation.section.parameters.end.bracket.round",
-                "meta.brace.css",
-                "punctuation.section.block",
-            ],
-            "settings": {
-                "foreground": "#5d97b4",
-                "fontStyle": "bold"
-            }
-        },
-        {
-            "name": "Brackets",
-            "scope": [
-                "punctuation.section.arguments.begin.bracket",
-                "punctuation.section.arguments.end.bracket",
-                "punctuation.section.parameters.begin.bracket.round",
-                "punctuation.section.parameters.end.bracket.round",
-                "meta.brace.css",
-                "punctuation.section.block",
+                "punctuation.section.parameters.begin.bracket",
+                "punctuation.section.parameters.end.bracket",
             ],
             "settings": {
                 "foreground": "#5d97b4",
@@ -643,11 +616,11 @@
         {
             "name": "Links",
             "scope": [
-                "string.other.link.title.markdown",
-                "string.other.link.description.markdown",
                 "meta.image.inline.markdown",
                 "punctuation.definition.string.begin.markdown",
                 "punctuation.definition.string.end.markdown",
+                "string.other.link.description.markdown",
+                "string.other.link.title.markdown",
             ],
             "settings": {
                 "foreground": "#8f73ee",
